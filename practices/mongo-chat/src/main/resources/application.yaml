@@ -1,0 +1,5 @@
+spring:
+  data:
+    mongodb:
+#      uri: mongodb://root:1234@mongo1:27017,mongo2:27018/okdori?authSource=admin
+      uri: mongodb://root:1234@localhost:27017,localhost:27018/okdori?authSource=admin
